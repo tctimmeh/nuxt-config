@@ -1,6 +1,6 @@
 {
   "name": "nuxt-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Nuxt module for the node \"config\" package",
   "license": "MIT",
   "contributors": [
@@ -8,26 +8,30 @@
       "name": "Tim Court <tctimmeh@gmail.com>"
     }
   ],
-  "main": "lib/module.js",
   "repository": "https://github.com/tctimmeh/nuxt-config",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt test/fixture",
-    "lint": "eslint lib test",
-    "test": "npm run lint && jest",
+    "dev": "SHARED_ENV_VALUE='environment OVERRIDE' SERVER_ENV_VALUE='env SERVER' CLIENT_ENV_VALUE='env CLIENT' nuxt test/fixture",
+    "lint": "eslint index.js module.js test",
+    "test": "SHARED_ENV_VALUE='environment OVERRIDE' SERVER_ENV_VALUE='env SERVER' CLIENT_ENV_VALUE='env CLIENT' jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": ["lib/templates/*.*"],
-  "files": ["lib"],
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
   "jest": {
     "testEnvironment": "node",
     "collectCoverage": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "config": "^1.30.0"
+  },
   "devDependencies": {
-    "nuxt": "latest",
     "codecov": "latest",
     "eslint": "latest",
     "eslint-config-standard": "latest",
@@ -39,6 +43,7 @@
     "eslint-plugin-vue": "latest",
     "jest": "latest",
     "jsdom": "latest",
+    "nuxt": "latest",
     "standard-version": "latest"
   }
 }

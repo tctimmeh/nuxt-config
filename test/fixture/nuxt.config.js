@@ -1,4 +1,4 @@
-const { resolve } = require('path')
+const {resolve} = require('path')
 
 module.exports = {
   rootDir: resolve(__dirname, '../..'),
@@ -7,5 +7,5 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: ['@@/module']
 }

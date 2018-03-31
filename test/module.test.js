@@ -6,7 +6,7 @@ const config = require('./fixture/nuxt.config')
 const url = path => `http://localhost:3000${path}`
 const get = path => request(url(path))
 
-describe('basic', () => {
+describe('Server renders page with server config values', () => {
   let nuxt
 
   beforeAll(async () => {
@@ -21,6 +21,6 @@ describe('basic', () => {
 
   test('render', async () => {
     let html = await get('/')
-    expect(html).toContain('Works!')
+    expect(html).toMatchSnapshot()
   })
 })
