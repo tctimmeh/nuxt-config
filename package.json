@@ -18,11 +18,8 @@
     "test": "SHARED_ENV_VALUE='environment OVERRIDE' SERVER_ENV_VALUE='env SERVER' CLIENT_ENV_VALUE='env CLIENT' jest",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": [
-    "lib/templates/*.*"
-  ],
   "files": [
-    "lib"
+    "index.js", "plugin.js", "module.js"
   ],
   "jest": {
     "testEnvironment": "node",

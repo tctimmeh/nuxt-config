@@ -23,7 +23,7 @@ exports[`Server renders page with server config values render 1`] = `
     the component $config plugin.
   </p><p><strong>Expected Client</strong>: isomorphic CLIENT</p><p><strong>Expected Server</strong>: isomorphic SERVER</p><p><strong>Rendered Value</strong>: isomorphic SERVER</p><hr><p>
     The END.
-  </p></div></div></div><script type=\\"text/javascript\\">window.__NUXT__={\\"layout\\":\\"default\\",\\"data\\":[{}],\\"error\\":null,\\"serverRendered\\":true,\\"__CONFIG__\\":{\\"simpleValue\\":\\"simple config value\\",\\"isoValue\\":\\"isomorphic CLIENT\\",\\"sharedEnvValue\\":\\"environment OVERRIDE\\",\\"envValue\\":\\"env CLIENT\\"}};</script><script src=\\"/_nuxt/manifest.4e8c7d7d6abd96bc18a3.js\\" defer></script><script src=\\"/_nuxt/layouts/default.c605bf7c8c94c47a9469.js\\" defer></script><script src=\\"/_nuxt/pages/index.b770109cf60a6bac1476.js\\" defer></script><script src=\\"/_nuxt/vendor.a957a7ca6669894d2157.js\\" defer></script><script src=\\"/_nuxt/app.da826a21652d3c7ec237.js\\" defer></script>
+  </p></div></div></div><script type=\\"text/javascript\\">window.__NUXT__={\\"layout\\":\\"default\\",\\"data\\":[{}],\\"error\\":null,\\"serverRendered\\":true,\\"__CONFIG__\\":{\\"simpleValue\\":\\"simple config value\\",\\"isoValue\\":\\"isomorphic CLIENT\\",\\"sharedEnvValue\\":\\"environment OVERRIDE\\",\\"envValue\\":\\"env CLIENT\\"}};</script><script src=\\"/_nuxt/manifest.44957974cf95d8735d28.js\\" defer></script><script src=\\"/_nuxt/layouts/default.c605bf7c8c94c47a9469.js\\" defer></script><script src=\\"/_nuxt/pages/index.b770109cf60a6bac1476.js\\" defer></script><script src=\\"/_nuxt/vendor.a957a7ca6669894d2157.js\\" defer></script><script src=\\"/_nuxt/app.a0073a5804d486046b83.js\\" defer></script>
   </body>
 </html>
 "
