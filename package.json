@@ -1,6 +1,6 @@
 {
   "name": "nuxt-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Nuxt module for the node \"config\" package",
   "license": "MIT",
   "contributors": [
@@ -19,7 +19,9 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "files": [
-    "index.js", "plugin.js", "module.js"
+    "index.js",
+    "plugin.js",
+    "module.js"
   ],
   "jest": {
     "testEnvironment": "node",
