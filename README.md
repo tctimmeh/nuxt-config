@@ -25,10 +25,12 @@ state and the Vuex store data.
 {
   modules: [
     // Simple usage
-    'nuxt-config',
+    'nuxt-config/module',
 
     // With options
-    ['nuxt-config', { /* module options */ }],
+    ['nuxt-config/module', {
+      clientWhitelist: 'client'
+    }],
  ]
 }
 ```
