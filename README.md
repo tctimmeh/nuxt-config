@@ -122,6 +122,7 @@ You can change the name of the client whitelist object with the `clientWhiteList
 - Run an automated test with `yarn test`. However, heed these notes:
   - This is only a client-side test. You should still manually verify server-side function using the dev page
   - Tests currently depend on port 3000 being available. Funny things will happen if it's not
+- Use `yarn release` to make a new release
 
 ## License
 

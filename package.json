@@ -11,7 +11,7 @@
     "dev": "SHARED_ENV_VALUE='environment OVERRIDE' SERVER_ENV_VALUE='env SERVER' CLIENT_ENV_VALUE='env CLIENT' nuxt test/fixture",
     "lint": "eslint index.js module.js test",
     "test": "SHARED_ENV_VALUE='environment OVERRIDE' SERVER_ENV_VALUE='env SERVER' CLIENT_ENV_VALUE='env CLIENT' jest",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push origin --follow-tags && npm publish"
   },
   "files": [
     "index.js",
