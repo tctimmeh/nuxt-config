@@ -1,7 +1,6 @@
 # nuxt-config
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-config/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-config)
 [![npm](https://img.shields.io/npm/dt/nuxt-config.svg?style=flat-square)](https://npmjs.com/package/nuxt-config)
-[![Dependencies](https://david-dm.org/tctimmeh/nuxt-config/status.svg?style=flat-square)](https://david-dm.org/tctimmeh/nuxt-config)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > Nuxt module for the node [config](https://www.npmjs.com/package/config) package
@@ -117,10 +116,8 @@ You can change the name of the client whitelist object with the `clientWhiteList
 
 - Clone this repository
 - Install dependnecies using `yarn install` or `npm install`
-- Start development server using `npm run dev`
+- Start development server using `yarn dev`
 
 ## License
 
 [MIT License](./LICENSE)
-
-Copyright (c) Tim Court <tctimmeh@gmail.com>

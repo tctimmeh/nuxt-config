@@ -1,14 +1,9 @@
 {
   "name": "nuxt-config",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Nuxt module for the node \"config\" package",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "Tim Court <tctimmeh@gmail.com>"
-    }
-  ],
-  "repository": "https://github.com/tctimmeh/nuxt-config",
+  "repository": "gitlab:sweetgum/nuxt-config.git",
   "publishConfig": {
     "access": "public"
   },
@@ -28,21 +23,21 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "config": "^1.30.0"
+    "config": "^1.31.0"
   },
   "devDependencies": {
-    "codecov": "latest",
-    "eslint": "latest",
-    "eslint-config-standard": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-jest": "latest",
-    "eslint-plugin-node": "latest",
-    "eslint-plugin-promise": "latest",
-    "eslint-plugin-standard": "latest",
-    "eslint-plugin-vue": "latest",
-    "jest": "latest",
-    "jsdom": "latest",
-    "nuxt": "latest",
-    "standard-version": "latest"
+    "codecov": "^3.5.0",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.14.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.8.0",
+    "jsdom": "^15.1.1",
+    "nuxt": "^2.8.1",
+    "standard-version": "^7.0.0"
   }
 }
