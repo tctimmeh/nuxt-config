@@ -116,7 +116,12 @@ You can change the name of the client whitelist object with the `clientWhiteList
 
 - Clone this repository
 - Install dependnecies using `yarn install` or `npm install`
+- Install the package locally: `yarn link` then `yarn link nuxt-config`
 - Start development server using `yarn dev`
+- Follow the instructions on the dev server page to manually verify that everything is working
+- Run an automated test with `yarn test`. However, heed these notes:
+  - This is only a client-side test. You should still manually verify server-side function using the dev page
+  - Tests currently depend on port 3000 being available. Funny things will happen if it's not
 
 ## License
 

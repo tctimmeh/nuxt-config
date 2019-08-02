@@ -1,29 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Server renders page with server config values render 1`] = `
-"<!DOCTYPE html>
+"<!doctype html>
 <html data-n-head-ssr data-n-head=\\"\\">
-  <head>
-    <title data-n-head=\\"true\\"></title><style data-vue-ssr-id=\\"77d308d8:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;-webkit-transition:width .2s,opacity .4s;transition:width .2s,opacity .4s;opacity:1;background-color:#efc14e;z-index:999999}</style><style data-vue-ssr-id=\\"a67082e4:0\\">pre{display:inline}</style>
+  <head data-n-head=\\"\\">
+    <style data-vue-ssr-id=\\"17cfdfa9:0\\">.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}</style><style data-vue-ssr-id=\\"f74d85d8:0\\">pre{display:inline}</style>
   </head>
   <body data-n-head=\\"\\">
-    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><div class=\\"nuxt-progress\\" style=\\"width:0%;height:2px;background-color:black;opacity:0;\\"></div><div id=\\"__layout\\"><div><h1>Nuxt-Config Test Page</h1><p>For each of the values below:</p><ul><li>Ensure the value shown here is correct</li><li>Ensure the server-rendered value in the HTML here is correct</li></ul><h2>Shared Config Value</h2><p>
+    <div data-server-rendered=\\"true\\" id=\\"__nuxt\\"><!----><div id=\\"__layout\\"><div><h1>Nuxt-Config Test Page</h1> <p>For each of the values below:</p> <ul><li>Ensure the value shown here is correct</li> <li>Ensure the server-rendered value in the HTML here is correct</li></ul> <h2>Shared Config Value</h2> <p>
     This value is set in the global config and then shared with the client using <code>defer()</code>. Both values
     should be the same.
-  </p><p><strong>Expected Client</strong>: simple config value</p><p><strong>Expected Server</strong>: simple config value</p><p><strong>Rendered Value</strong>: simple config value</p><hr><h2>Overridden on Client</h2><p>
+  </p> <p><strong>Expected Client</strong>: simple config value</p> <p><strong>Expected Server</strong>: simple config value</p> <p><strong>Rendered Value</strong>: simple config value</p> <hr> <h2>Overridden on Client</h2> <p>
     This value is different on server and client. For example, this could be useful for specifying a public URL for an
     API server in the browser and a private, internal URL for the server.
-  </p><p><strong>Expected Client</strong>: isomorphic CLIENT</p><p><strong>Expected Server</strong>: isomorphic SERVER</p><p><strong>Rendered Value</strong>: isomorphic SERVER</p><hr><h2>Shared Environment Override</h2><p>
+  </p> <p><strong>Expected Client</strong>: isomorphic CLIENT</p> <p><strong>Expected Server</strong>: isomorphic SERVER</p> <p><strong>Rendered Value</strong>: isomorphic SERVER</p> <hr> <h2>Shared Environment Override</h2> <p>
     This value is overridden in the run-time environment and shared between client and server. Both values should be
     the same
-  </p><p><strong>Expected Client</strong>: environment OVERRIDE</p><p><strong>Expected Server</strong>: environment OVERRIDE</p><p><strong>Rendered Value</strong>: environment OVERRIDE</p><hr><h2>Unique Environment Override</h2><p>
+  </p> <p><strong>Expected Client</strong>: environment OVERRIDE</p> <p><strong>Expected Server</strong>: environment OVERRIDE</p> <p><strong>Rendered Value</strong>: environment OVERRIDE</p> <hr> <h2>Unique Environment Override</h2> <p>
     This value is overridden in the run-time environment using different variables for client and server.
-  </p><p><strong>Expected Client</strong>: env CLIENT</p><p><strong>Expected Server</strong>: env SERVER</p><p><strong>Rendered Value</strong>: env SERVER</p><hr><h2>Global Access</h2><p>
+  </p> <p><strong>Expected Client</strong>: env CLIENT</p> <p><strong>Expected Server</strong>: env SERVER</p> <p><strong>Rendered Value</strong>: env SERVER</p> <hr> <h2>Global Access</h2> <p>
     This is the same as &quot;Overridden on Client&quot; except that the value is read using the global config access instead of
     the component $config plugin.
-  </p><p><strong>Expected Client</strong>: isomorphic CLIENT</p><p><strong>Expected Server</strong>: isomorphic SERVER</p><p><strong>Rendered Value</strong>: isomorphic SERVER</p><hr><p>
+  </p> <p><strong>Expected Client</strong>: isomorphic CLIENT</p> <p><strong>Expected Server</strong>: isomorphic SERVER</p> <p><strong>Rendered Value</strong>: isomorphic SERVER</p> <hr> <p>
     The END.
-  </p></div></div></div><script type=\\"text/javascript\\">window.__NUXT__={\\"layout\\":\\"default\\",\\"data\\":[{}],\\"error\\":null,\\"serverRendered\\":true,\\"__CONFIG__\\":{\\"simpleValue\\":\\"simple config value\\",\\"isoValue\\":\\"isomorphic CLIENT\\",\\"sharedEnvValue\\":\\"environment OVERRIDE\\",\\"envValue\\":\\"env CLIENT\\"}};</script><script src=\\"/_nuxt/manifest.44957974cf95d8735d28.js\\" defer></script><script src=\\"/_nuxt/layouts/default.c605bf7c8c94c47a9469.js\\" defer></script><script src=\\"/_nuxt/pages/index.b770109cf60a6bac1476.js\\" defer></script><script src=\\"/_nuxt/vendor.a957a7ca6669894d2157.js\\" defer></script><script src=\\"/_nuxt/app.a0073a5804d486046b83.js\\" defer></script>
+  </p></div></div></div><script>window.__NUXT__={layout:\\"default\\",data:[{}],error:null,serverRendered:true,__CONFIG__:{simpleValue:\\"simple config value\\",isoValue:\\"isomorphic CLIENT\\",sharedEnvValue:\\"environment OVERRIDE\\",envValue:\\"env CLIENT\\"}};</script><script src=\\"/_nuxt/62dc542123540a0812a9.js\\" defer></script><script src=\\"/_nuxt/1b5defd97243cf638523.js\\" defer></script><script src=\\"/_nuxt/53d46bc9c81a91782ba3.js\\" defer></script><script src=\\"/_nuxt/331528a23ef970c3e167.js\\" defer></script>
   </body>
 </html>
 "
