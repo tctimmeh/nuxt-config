@@ -1,6 +1,6 @@
 {
   "name": "nuxt-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nuxt module for the node \"config\" package",
   "license": "MIT",
   "repository": "gitlab:sweetgum/nuxt-config.git",
