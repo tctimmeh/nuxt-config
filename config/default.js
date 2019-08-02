@@ -7,9 +7,9 @@ module.exports = {
   envValue: 'environment value SERVER',
 
   client: {
-    simpleValue: defer(function() { return this.simpleValue }),
+    simpleValue: defer(function () { return this.simpleValue }),
     isoValue: 'isomorphic CLIENT',
-    sharedEnvValue: defer(function() { return this.sharedEnvValue }),
+    sharedEnvValue: defer(function () { return this.sharedEnvValue }),
     envValue: 'environment value CLIENT',
   }
 }

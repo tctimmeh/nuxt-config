@@ -15,13 +15,15 @@ module.exports = {
   ],
   rules: {
     // Allow paren-less arrow functions
-    'arrow-parens': 0,
+    'arrow-parens': 'off',
+    // Allow superfluous trailing commas
+    'comma-dangle': 'off',
     // Allow async-await
-    'generator-star-spacing': 0,
+    'generator-star-spacing': 'off',
     // Allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     // Do not allow console.logs etc...
-    'no-console': 2
+    'no-console': 'error'
   },
   globals: {
     'jest/globals': true,
