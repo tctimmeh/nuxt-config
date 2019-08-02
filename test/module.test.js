@@ -20,7 +20,7 @@ describe('Server renders page with server config values', () => {
   })
 
   test('render', async () => {
-    let html = await get('/')
+    const html = await get('/')
     expect(html).toMatchSnapshot()
   })
 })
